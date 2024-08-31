@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(animangascenery.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav{
+    color: rgb(235, 15, 15);
+}
+.anime-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.anime-CLOTHES{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* box-shadow: 0cm; */
+    /* border: 20px; */
+}
+#text {
+    text-align: center;
+    color:darkmagenta ;
+    font-size: 36px;
+}
+#gal {
+    color: bisque;
+}
+#navbar{
+    text-align: center;
+    border: 1px solid black;
+    /* margin-top: 80px; */
+    background-color: rgba(240, 248, 255, 0.153);
+   
+}
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+   
+}
+li{
+    display: inline;
+    padding: 10px;
+}
+
