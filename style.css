@@ -9,9 +9,6 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-/* nav{
-    color: rgb(235, 15, 15);
-} */
 .anime-list{
     display: flex;
     flex-direction: row;
@@ -29,7 +26,12 @@ body{
 #text {
     text-align: center;
     color:darkmagenta ;
-    font-size: 36px;
+    font-size: 110px;
+}
+#gal1{
+    color: rgb(205, 114, 3);
+    margin-top: -80px;
+    font-size:xx-large;
 }
 #gal {
     color: rgb(205, 114, 3);
@@ -42,17 +44,23 @@ body{
     text-align: center;
     border: 1px solid black;
     margin-top: 5px;
+    margin-bottom: -50px;
     background-image: url(gon.jpeg);
-     background-size: cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed; 
+}
+#name {
+    margin-top: 80px;
+    text-decoration: none;
+    color: rgb(229, 92, 92);
+    font-size: 4rem;
 }
 li a {
     text-decoration: none;
     color: rgb(37, 2, 141);
     font-size: 2rem;
-    
 }
 li{
     display: inline;
@@ -62,4 +70,51 @@ li{
 }
 #all{
     text-align: center;
+}
+.product-container {
+    width: 200px; 
+    position: relative;
+    text-align: center;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cart-icon img {
+    width: 30px; 
+    cursor: pointer;
+}
+.cart-icon{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.total-box {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    background-color: rgba(20, 4, 4, 0.479);
+}
+
+.cart-icon2 {
+    width: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+#about{
+    background-color:rgba(240, 248, 255, 0.418);
+    border: 5px solid rgb(1, 0, 0);
 }
